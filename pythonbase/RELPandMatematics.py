@@ -36,7 +36,17 @@ tuplas = ('itos1', 'cabeza de mojon', 'me vale vergz') #Tupla não muda seus dad
 
 lista.sort() #Es una forma de ordenar listas ya sea en orden alfabetico o numerico pero solo puede recibir un tipo de dato
 print(lista) 
-print(tuplas)
+print(tuplas.index('cabeza de mojon')) #Podemos pasar valores index determinados usando --> print(tuplas[0])
 
 
+#Como las "tuplas" no pueden modificarse agregando elementos lo que podmos hacer es agregarlas a una lista como veremos a continuación 
 
+listadupla = list(tuplas) #la funcion list convierte nuestras tuplas en listas que depues podremos modificar 
+listadupla.append('hola soy un agregado a la lista duplas') #Aqui vemos un claro ejemplo de ello/ tomamos nuestra nueva variable que ahora es una lista y agregamos el atributo
+#append
+
+print(listadupla)
+
+rango = range(8) #Este rango nos va a servir mas adelante cuando iniciemos con iteraciones. Solo define un rango entre uno y 8 en este caso
+
+print(rango)
