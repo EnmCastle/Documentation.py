@@ -59,3 +59,7 @@ else:
     
 if 1 == 0 or 1 > 0:
     print("Una de las 2 condiones devolvio true")
+    
+    
+    
+    
