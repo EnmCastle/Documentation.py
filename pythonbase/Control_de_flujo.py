@@ -47,4 +47,15 @@ else:
 
 
 
-#
+# Podemos fazer uma condicional em uma linha só 
+print("Se ejecuto la condicion if 5 mayor que 2") if 5 < 2  else print("Se ejecuto la alternativa else")
+
+#Condiciones and e or (Ja sabemos como funcionan pero voy a dejar un ejemplo)
+
+if a == 2 and a == a:
+    print("Si ves esto ambos valores eran iguales")
+else: 
+    print("Los valores  se mostraran porque ambos no fueron falsos ")
+    
+if 1 == 0 or 1 > 0:
+    print("Una de las 2 condiones devolvio true")
