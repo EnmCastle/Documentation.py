@@ -59,5 +59,6 @@ elif operacion == "*":
 elif operacion == "/":
     print( V1/V2)
 
-
+#LEMBRA... Seimpre debes ver que tus string sean las
+# mismas siempre que los datos esten correctos porque si no no funcionará
 
