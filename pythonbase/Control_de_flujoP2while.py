@@ -26,5 +26,24 @@ Usuarios = ["CHanchito feliz", "Felipe", "roberto", "Nicolas"]
 for Usuarios in Usuarios:
     print(Usuarios)
 
+#Podemos incluso iterar strings
+#Otra cosa que podemos hacer es hacer quiebras de codigo usando brake como en el ejemplo que sigue
+
+Karaota = "Holamundo"
+
+for c in Karaota:
+      if c == "m":
+            break
+      print(c)      
+      
+#Usando coninue dentro dos loops a gente pode vai saltar o codigo que esteja direitamente frente ao nosso atributo
+continuar = ['Gastos', 'perros', 'monos']
+
+for x in continuar:
+      if x == 'perros':
+            continue
+      print(x)
+      
+      
 
  
