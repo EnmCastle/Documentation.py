@@ -5,3 +5,11 @@
 #Y soy el administrador de este equipamento aplicando herencia
 
 
+
+class Admin(Nombres):
+    def supersaludo(self):
+        print('Hola mi nombre es', self.nombre, "y soy admin")
+
+admin = Admin('enmanuel','Castillo')
+admin.imprimenom()
+admin.supersaludo()
