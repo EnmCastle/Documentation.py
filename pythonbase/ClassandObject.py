@@ -66,7 +66,7 @@ usuarios.nombre = 'Carlitos' #De esta forma podemos cambiar los parametros cuand
 usuarios.imprimenom()
 """ del usuarios.nombre #DE esta forma podemos eliminar un parametro de nuestra instancia
 del usuario #Y esta es la forma de eliminar un objeto  """
-usuarios.imprimenom()
+
 
 
         
