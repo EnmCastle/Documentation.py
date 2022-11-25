@@ -13,7 +13,11 @@
 # Ahora vamos a crear una clase de verdad para conectarla a una base de datos imaginaria. """
 
 class Usuario:
-    def __init__(self, nombre,apellido):
+    def __init__(self, nombre,apellido): #El método __init__ es un método especial
+                                        #de una clase en Python. El objetivo fundamental del método __init__
+                                        # es inicializar los atributos del objeto que creamos.
+
+
         self.nombre = nombre
         self.apellido = apellido
 usuario = Usuario('Enmanuel', 'Castillo')
@@ -29,9 +33,6 @@ class PersonajesL:
         skill.HP = HP
         skill.CH = CH
         skill.RE = RE
-     
-    def game_over(self): #Cada una de estas def son propiedades o metodos de nuestra clase
-         print('game_over')
          
     def presentacion(skill): #Aqui estamos usando el self 'skill' para conseguir tomar argumentos de nuestra propiedad inicial 
         print('El personaje que has elegido posee las siguientes habilidades: ','HP',skill.HP,'CH',skill.CH,'RE',skill.RE)
