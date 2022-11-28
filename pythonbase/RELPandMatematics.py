@@ -29,7 +29,7 @@ lista.append('Hola') #Metodo append nos ayuda a agregar valores a nuestra lista.
 
 #lista.remove(2) # ---> Aqui podemos especificar algun valor que queremos eliminar
 
-lista.reverse() #Esto nos permite volcar todo alreves (Reverso)  #NOTA IMPORTANTE!!!
+lista = reversed() #Esto nos permite volcar todo alreves (Reverso)  #NOTA IMPORTANTE!!!
 # NO PODEMOS ORDENAR DATOS DE DIFERENTES TIPOS DEBEN SER SIEMPRE DEL MISMO TIPO CUANDO USAMOS O METODO DE sort
 print(lista)
 tuplas = ('itos1', 'cabeza de mojon', 'me vale vergz') #Tupla não muda seus dados como a lista

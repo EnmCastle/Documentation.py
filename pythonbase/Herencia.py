@@ -15,6 +15,8 @@ class Admin(Nombres):
 admin = Admin('enmanuel','Castillo')
 
 admin.supersaludo()
+admin.imprimenom #Si usaramos la funcion de forma estatica no nos aparecereran los comandos de la clase "Padre"
+
 
 #Esto es solo un ejemplo porque lo ideal es importar solo funcionalidades de la clase o eso creo
 #Entonces para usar una funcionalidad de una clase padre dentro de una hija es mejor dejarla 
