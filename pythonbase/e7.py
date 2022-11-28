@@ -1,0 +1,1 @@
+#Crea un programa que reciba una cantidad infita de numeros hasta que el usuario diga basta
