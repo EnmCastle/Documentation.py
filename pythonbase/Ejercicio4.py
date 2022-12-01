@@ -4,12 +4,17 @@ class Usuario:
         self.nombre = nombre
         self.edad = edad
 
-def menore (self):
-    if 
-    
+def mayor (self):
+    if  self .edad > 17:
+             print("EL usuario",self.nombre,'tiene',self.edad, 'y es mayor de edad' )
+    else:
+             print('Este usuario es menor de edad y no puede entrar')
     
 usuario1 = Usuario('Enmanuel',15)
 usuario2 = Usuario('Carlos',22)
 
 
-        
+resultado1 = mayor(usuario1)        
+resultado2 = mayor(usuario2)  
+
+print(type(resultado1),type(resultado2))
